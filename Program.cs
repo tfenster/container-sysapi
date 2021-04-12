@@ -8,7 +8,7 @@ var app = WebApplication.Create(args);
 
 app.MapGet("/", async http =>
 {
-    await http.Response.WriteAsync("Hello World, v1!");
+    await http.Response.WriteAsync("Hello World, v2!");
 });
 
 app.MapGet("/headers", async http =>
